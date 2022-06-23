@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.changzhzfinalproject.discountController">
+   <children>
+      <Button fx:id="backBtn" layoutY="1.0" mnemonicParsing="false" onAction="#backBtnClick" text="←">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="288.0" layoutY="15.0" text="Random 10 Discounts" textFill="#fc821c">
+         <font>
+            <Font name="Dubai Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="discountTable" layoutY="81.0" prefHeight="333.0" prefWidth="800.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="65.99999749660492" text="ItemID" />
+          <TableColumn fx:id="categoryCol" prefWidth="84.66666412353516" text="Category" />
+            <TableColumn fx:id="colorCol" prefWidth="69.3333740234375" text="Color" />
+            <TableColumn fx:id="colorCodeCol" prefWidth="109.99998474121094" text="ColorCode" />
+            <TableColumn fx:id="sizeCol" prefWidth="47.33331298828125" text="Size" />
+            <TableColumn fx:id="priceCol" prefWidth="82.0" text="UnitePrice" />
+            <TableColumn fx:id="discountCol" prefWidth="98.00003051757812" text="DiscountPrice" />
+            <TableColumn fx:id="descriptionCol" prefWidth="245.3333740234375" text="Description" />
+        </columns>
+      </TableView>
+      <Label layoutX="266.0" layoutY="444.0" text="ItemID" textFill="#fe821c">
+         <font>
+            <Font name="Dubai Bold" size="24.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="discountChoice" layoutX="226.0" layoutY="496.0" prefWidth="150.0" />
+      <Button fx:id="addToCartBtn" layoutX="433.0" layoutY="466.0" mnemonicParsing="false" onAction="#addToCartBtnClick" text="Add To Cart" textFill="#fe821c">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="successDisplay" alignment="CENTER" layoutX="452.0" layoutY="521.0" opacity="0.0" text="Success！" textAlignment="CENTER" textFill="#44ff3a">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="placeOrderBtn" layoutX="598.0" layoutY="466.0" mnemonicParsing="false" onAction="#placeOrderBtnClick" text="Place Order" textFill="#fe821c">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="emailBtn" layoutX="564.0" layoutY="2.0" mnemonicParsing="false" onAction="#emailBtnClick" text="Send To Customers (BETA)" textFill="#fc821e">
+         <font>
+            <Font name="Dubai Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="emailSuccess" layoutX="623.0" layoutY="43.0" opacity="0.0" text="Success!" textFill="#80ef44">
+         <font>
+            <Font name="Dubai Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

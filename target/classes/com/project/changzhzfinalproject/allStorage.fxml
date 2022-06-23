@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.changzhzfinalproject.allStorageController">
+   <children>
+      <TableView fx:id="storageTable" layoutY="50.0" prefHeight="200.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0">
+        <columns>
+          <TableColumn fx:id="itemIDCol" prefWidth="87.33334350585938" text="ItemID" />
+          <TableColumn fx:id="categoryCol" prefWidth="81.33332824707031" text="Category" />
+            <TableColumn fx:id="colorCol" prefWidth="84.66665649414062" text="Color" />
+            <TableColumn fx:id="colorCodeCol" prefWidth="100.66668701171875" text="ColorCode" />
+            <TableColumn fx:id="sizeCol" prefWidth="68.6666259765625" text="Size" />
+            <TableColumn fx:id="priceCol" prefWidth="93.3333740234375" text="Price" />
+            <TableColumn fx:id="descriptionCol" prefWidth="285.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button fx:id="backBtn" mnemonicParsing="false" onAction="#backBtnClick" text="←">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="320.0" layoutY="1.0" text="Inventory" textAlignment="CENTER" textFill="#fe821c">
+         <font>
+            <Font name="Dubai Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

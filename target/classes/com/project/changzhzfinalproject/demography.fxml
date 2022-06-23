@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.changzhzfinalproject.demographyController">
+   <children>
+      <Button fx:id="backBtn" layoutY="1.0" mnemonicParsing="false" onAction="#backBtnClick" text="←">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="416.0" layoutY="13.0" text="Customer Demographics Report" textFill="#fc821e">
+         <font>
+            <Font name="Dubai Bold" size="27.0" />
+         </font>
+      </Label>
+      <Line endX="1095.0" endY="6.666664123535156" layoutX="105.0" layoutY="68.0" startX="-107.66666412353516" startY="-1.1444091796875E-5" stroke="#fc821e" strokeWidth="2.0" />
+      <Pane fx:id="genderPane" layoutX="62.0" layoutY="182.0" prefHeight="188.0" prefWidth="247.0" AnchorPane.leftAnchor="62.0" />
+      <Pane fx:id="cardTypePane" layoutX="611.0" layoutY="182.0" prefHeight="199.0" prefWidth="238.0" />
+      <Line endX="493.58575439453125" endY="524.6666259765625" layoutX="116.0" layoutY="102.0" startX="493.58575439453125" startY="92.66667175292969" stroke="#fc821e" strokeWidth="2.0" AnchorPane.leftAnchor="600.0" AnchorPane.rightAnchor="600.0" />
+   </children>
+</AnchorPane>
