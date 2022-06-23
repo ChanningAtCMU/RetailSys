@@ -1,0 +1,11 @@
+﻿ID,FirstName,LastName,Email,Gender,Age,CCType,CCNum,CCName,CCExpireDate,CVV
+2021001,Collin,Chambers,collinch@syr.edu,Male,26 ,Visa,4524824895930800,Collin Chambers,06/25,987
+2021002,Mason,Greenwood,bigboimason@mu.com,Male,19 ,MasterCard,4524824895889210,Mason Greenwood,07/24,765
+2021003,Harry,Kane,"harryattotten@thm,com",Male,30 ,Visa,4524827829560620,Harry Kane,12/25,543
+2021004,Sara,Gibson,saragibson@gmail.com,Female,38 ,,,,,
+2021005,Camila,Cabello,camila@gmail.com,Female,25 ,,,,,
+2021006,Aaron,Thompson,aarontom@gmail.com,Non-Binary,32 ,,,,,
+2021007,Alvaro,Soler,asoloer@andrew.cmu.edu,Male,28 ,,,,,
+2021008,Karen,Madison,tj@163.com,Female,27 ,,,,,
+2021009,Fernando,Torres,fertorre@chelsea.org,Male,42 ,,,,,
+2021010,Chris,Ronaldo,cronaldo@mu.org,Male,38 ,,,,,

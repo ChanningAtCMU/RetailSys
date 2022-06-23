@@ -1,0 +1,69 @@
+﻿ID,Category,Color,ColorCode,Size,Price,DiscountPrice,Description,Status
+SH001,Shirt,White,#ffffff,S,10.00 ,8.50 ,Popular color.,In Stock
+SH002,Shirt,White,#ffffff,M,11.50 ,9.78 ,Popular color.,In Stock
+SH003,Shirt,Blue,#4a86e8,L,15.00 ,12.75 ,Normal blue shirt.,In Stock
+SH004,Shirt,Blue,#4a86e8,XL,16.50 ,14.03 ,Normal blue shirt.,In Stock
+SH005,Shirt,Black,#000000,S,10.00 ,8.50 ,Popular color.,In Stock
+SH006,Shirt,Black,#000000,S,10.00 ,8.50 ,Popular color.,In Stock
+SH007,Shirt,Black,#000000,XXL,20.50 ,17.43 ,The only XXL shirt in stock.,In Stock
+SH008,Shirt,Red,#ff0000,M,10.00 ,8.50 ,Normal red shirt.,In Stock
+SH009,Shirt,Red,#ff0000,M,10.00 ,8.50 ,Memorial edition red shirt.,In Stock
+SH010,Shirt,Red,#ff0000,M,10.00 ,8.50 ,Normal red shirt.,In Stock
+TR001,Trouser,White,#ffffff,M,20.00 ,17.00 ,Classic medium size white trouser.,In Stock
+TR002,Trouser,White,#ffffff,M,20.00 ,17.00 ,Classic medium size white trouser.,In Stock
+TR003,Trouser,White,#ffffff,M,20.00 ,17.00 ,Classic medium size white trouser.,In Stock
+TR004,Trouser,White,#ffffff,S,17.00 ,14.45 ,Classic small size white trouser.,In Stock
+TR005,Trouser,White,#ffffff,L,25.00 ,21.25 ,Classic large size white trouser.,In Stock
+TR006,Trouser,Blue,#4a86e8,L,26.50 ,22.53 ,Winter edition blue trouser.,In Stock
+TR007,Trouser,Blue,#4a86e8,M,25.00 ,21.25 ,Winter edition blue trouser.,In Stock
+TR008,Trouser,Blue,#4a86e8,M,25.00 ,21.25 ,Winter edition blue trouser.,In Stock
+TR009,Trouser,Black,#000000,M,30.00 ,25.50 ,Normal black trouser.,In Stock
+TR010,Trouser,Black,#000000,S,25.00 ,21.25 ,Normal black trouser.,In Stock
+JA001,Jacket,Black,#000000,S,50.00 ,42.50 ,Classic balck jacket.,In Stock
+JA002,Jacket,Black,#000000,M,65.00 ,55.25 ,Classic balck jacket.,In Stock
+JA003,Jacket,Black,#000000,M,65.00 ,55.25 ,Classic balck jacket.,In Stock
+JA004,Jacket,Black,#000000,L,70.00 ,59.50 ,Classic balck jacket.,In Stock
+JA005,Jacket,Black,#000000,L,70.00 ,59.50 ,Classic balck jacket.,In Stock
+JA006,Jacket,Black,#000000,XL,72.50 ,61.63 ,Classic balck jacket.,In Stock
+JA007,Jacket,White,#ffffff,M,65.00 ,55.25 ,Fashionable white jacket.,In Stock
+JA008,Jacket,White,#ffffff,L,70.00 ,59.50 ,Fashionable white jacket.,In Stock
+JA009,Jacket,Red,#ff0000,M,80.00 ,68.00 ,New edition red jacket.,In Stock
+JA010,Jacket,Red,#ff0000,L,85.00 ,72.25 ,New edition red jacket.,In Stock
+SH011,Shirt,Black,#000000,XL,16.50 ,14.03 ,Previously sold shirt.,Sold
+SH012,Shirt,Black,#000000,M,10.00 ,8.50 ,Previously sold shirt.,Sold
+SH013,Shirt,Black,#000000,S,9.00 ,7.65 ,Previously sold shirt.,Sold
+SH014,Shirt,Black,#000000,M,10.00 ,8.50 ,Previously sold shirt.,Sold
+SH015,Shirt,Black,#000000,M,10.00 ,8.50 ,Previously sold shirt.,Sold
+SH016,Shirt,Black,#000000,M,10.00 ,8.50 ,Previously sold shirt.,Sold
+SH017,Shirt,Black,#000000,L,15.00 ,12.75 ,Previously sold shirt.,Sold
+SH018,Shirt,White,#ffffff,L,15.00 ,12.75 ,Previously sold shirt.,Sold
+SH019,Shirt,White,#ffffff,M,10.00 ,8.50 ,Previously sold shirt.,Sold
+SH020,Shirt,White,#ffffff,M,10.00 ,8.50 ,Previously sold shirt.,Sold
+TR011,Trouser,Blue,#4a86e8,XL,30.00 ,25.50 ,Previously sold trousers.,Sold
+TR012,Trouser,Blue,#4a86e8,XL,30.00 ,25.50 ,Previously sold trousers.,Sold
+TR013,Trouser,Blue,#4a86e8,XL,30.00 ,25.50 ,Previously sold trousers.,Sold
+TR014,Trouser,Blue,#4a86e8,XL,30.00 ,25.50 ,Previously sold trousers.,Sold
+TR015,Trouser,Blue,#4a86e8,XL,30.00 ,25.50 ,Previously sold trousers.,Sold
+TR016,Trouser,Blue,#4a86e8,XL,30.00 ,25.50 ,Previously sold trousers.,Sold
+JA011,Jacket,Red,#ff0000,M,80.00 ,68.00 ,Previously sold jacket.,Sold
+JA012,Jacket,Red,#ff0000,M,80.00 ,68.00 ,Previously sold jacket.,Sold
+JA013,Jacket,Red,#ff0000,M,80.00 ,68.00 ,Previously sold jacket.,Sold
+JA014,Jacket,Red,#ff0000,M,80.00 ,68.00 ,Previously sold jacket.,Sold
+JA015,Jacket,Red,#ff0000,L,85.00 ,72.25 ,Previously sold jacket.,Sold
+JA016,Jacket,White,#ffffff,S,50.00 ,42.50 ,Previously sold jacket.,Sold
+JA017,Jacket,White,#ffffff,S,50.00 ,42.50 ,Previously sold jacket.,Sold
+JA018,Jacket,Black,#000000,M,80.00 ,68.00 ,Previously sold jacket.,Sold
+JA019,Jacket,Black,#000000,M,80.00 ,68.00 ,Previously sold jacket.,Sold
+JA020,Jacket,Black,#000000,L,85.00 ,72.25 ,Previously sold jacket.,Sold
+JA021,Jacket,Black,#000000,M,80.00 ,68.00 ,Previously sold jacket.,Sold
+JA022,Jacket,White,#ffffff,XXL,100.00 ,85.00 ,Previously sold jacket.,Sold
+SH021,Shirt,White,#ffffff,XXL,20.50 ,17.43 ,Previously sold shirt.,Sold
+SH022,Shirt,Red,#ff0000,XXL,20.50 ,17.43 ,Previously sold shirt.,Sold
+SH023,Shirt,Red,#ff0000,XXL,20.50 ,17.43 ,Previously sold shirt.,Sold
+SH024,Shirt,Red,#ff0000,XXL,20.50 ,17.43 ,Previously sold shirt.,Sold
+SH025,Shirt,Red,#ff0000,XXL,20.50 ,17.43 ,Previously sold shirt.,Sold
+TR017,Trouser,White,#ffffff,S,25.00 ,21.25 ,Previously sold trousers.,Sold
+TR018,Trouser,White,#ffffff,S,25.00 ,21.25 ,Previously sold trousers.,Sold
+TR019,Trouser,White,#ffffff,S,25.00 ,21.25 ,Previously sold trousers.,Sold
+TR020,Trouser,White,#ffffff,S,25.00 ,21.25 ,Previously sold trousers.,Sold
+TR021,Trouser,Blue,#4a86e8,M,27.00 ,22.95 ,Previously sold trousers.,Sold
