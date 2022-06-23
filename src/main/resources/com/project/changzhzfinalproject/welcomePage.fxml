@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.changzhzfinalproject.WelcomeController">
+   <children>
+      <ImageView fx:id="welcomeBackground" fitHeight="486.0" fitWidth="801.0" layoutX="4.0" layoutY="113.0" nodeOrientation="INHERIT" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../Images/backGroundWallPaper.jpg" />
+         </image>
+      </ImageView>
+      <Label contentDisplay="CENTER" layoutX="100.0" prefHeight="113.0" prefWidth="319.0" text="AP® Ordering System" textAlignment="CENTER" textFill="#fe821c">
+         <font>
+            <Font name="Eras Demi ITC" size="30.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="599.0" layoutY="170.0" prefHeight="35.0" prefWidth="80.0" text="Ordering" textAlignment="CENTER" textFill="#ff8000">
+         <font>
+            <Font name="Dubai Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="348.0" layoutY="410.0" text="View Reports" textFill="#fabd1e">
+         <font>
+            <Font name="Dubai Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="575.0" layoutY="356.0" text="Check Storage" textFill="#fc821e">
+         <font>
+            <Font name="Dubai Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="563.0" layoutY="264.0" text="Random Discount" textFill="#fc821e">
+         <font>
+            <Font name="Dubai Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="504.0" layoutY="78.0" text="Powered by: ChanningIT LTD." textFill="#fe821c">
+         <font>
+            <Font name="Eras Bold ITC" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="goShoppingBtn" alignment="CENTER" layoutX="618.0" layoutY="206.0" mnemonicParsing="false" onAction="#shoppingBtnClick" text="GO!" textAlignment="CENTER" />
+      <Button fx:id="checkStorage" layoutX="589.0" layoutY="391.0" mnemonicParsing="false" onAction="#checkStorageBtnClick" text="Check Storage" />
+      <ChoiceBox fx:id="reportsChoiceBox" layoutX="318.0" layoutY="445.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button fx:id="goToReportBtn" layoutX="358.0" layoutY="483.0" mnemonicParsing="false" onAction="#goToReport" text="Go To Report" />
+      <Button fx:id="discountBtn" layoutX="581.0" layoutY="300.0" mnemonicParsing="false" onAction="#discountBtnClick" text="Check Discounts" />
+   </children>
+</AnchorPane>
